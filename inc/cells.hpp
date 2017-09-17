@@ -1,18 +1,16 @@
 #ifndef CELLS_HPP
 #define CELLS_HPP
 
-class cells{
+class Cells{
 private:
-  bool Alive;
-
-
+  bool alive;
 
 public:
     Cells();
-    ~Cells();
 
     bool getAlive();
     void setAlive(bool alive);
+
 
 };
 #endif

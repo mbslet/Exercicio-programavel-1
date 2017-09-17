@@ -1,17 +1,17 @@
-#ifndef BLOCK_HPP
-#define BLOCK_HPP
+#ifndef GLIDER_HPP
+#define GLIDER_HPP
 #include <iostream>
 #include "matrix.hpp"
 #include "cells.hpp"
 
 typedef bool(&matrixBool)[40][70];
 
-class Block {
+class Glider {
 private:
 public:
-    Block();
+    Glider();
 
-    matrixBool formABlock(matrixBool mat1, int i, int j);
+    matrixBool formAGlider(matrixBool mat1, int i, int j);
 
 };
 #endif

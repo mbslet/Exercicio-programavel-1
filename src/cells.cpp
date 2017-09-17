@@ -2,21 +2,13 @@
 #include "cells.hpp"
 
 Cells::Cells(){
-  if (Alive = '*')
-  return true;
-  else if (Alive = '-')
-  return false;
-
-}
-
-Cells::~Cells(){
-
+  alive = true;
 }
 
 bool Cells::getAlive(){
     return alive;
 }
 
-void Cells::setCells(bool alive){
+void Cells::setAlive(bool alive){
     this->alive = alive;
 }
