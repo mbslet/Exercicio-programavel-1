@@ -2,7 +2,6 @@
 #define BLINKER_HPP
 #include <iostream>
 #include "matrix.hpp"
-#include "cells.hpp"
 
 typedef bool(&matrixBool)[40][70];
 

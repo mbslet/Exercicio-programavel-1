@@ -1,6 +1,5 @@
 #include <iostream>
 #include "matrix.hpp"
-#include "cells.hpp"
 #include "block.hpp"
 #include"blinker.hpp"
 #include"glider.hpp"
@@ -10,7 +9,7 @@
 using namespace std;
 int  menu(){
   int option;
-  cout << "Escolha uma opção:\n0-Executar\n1- Colocar um Block\n2- Colocar um Blinker\n3- Colocar um Glider\n4- Colocar a Gosper Glider Gun\n";
+  cout << "Escolha uma opção:\n1- Colocar um Block\n2- Colocar um Blinker\n3- Colocar um Glider\n4- Colocar a Gosper Glider Gun\n0- Executar\n";
   cin >> option;
   return option;
 }
@@ -24,17 +23,35 @@ void sleep(unsigned int mseconds)
 int main(int argc, char ** argv){
   int option, i, j;
   int iteracoes;
+
   Matrix * mat1 = new Matrix();//deletar isso
   Block * bGenerator = new Block();//deletar isso
   Blinker * bliGenerator = new Blinker();//deletar isso
-  Glider * gliGenerator = new Glider();//deletar isso SERIO LETICIA NÃO ESQUECE!
+  Glider * gliGenerator = new Glider();//deletar isso
   GosperGliderGun * gggGenerator = new GosperGliderGun(); // isso também
   do{
     cout << "Matriz atual:\n";
     mat1->printGrid();
     option = menu();
-    if(option!=0){
-      cout << "Insira as coordenadas x e y: ";
+
+    if(option == 1){
+      cout << "Insira as coordenadas x (até 38) e y (até 68): ";
+      cin >> i >> j;
+    }
+    if(option == 2){
+      cout << "Insira as coordenadas x (até 38) e y (até 68): ";
+      cin >> i >> j;
+    }
+    if(option == 3){
+      cout << "Insira as coordenadas x (até 37) e y (até 67): ";
+      cin >> i >> j;
+    }
+    if(option == 4){
+      cout << "Insira as coordenadas x (até 29) e y (até 29): ";
+      cin >> i >> j;
+    }
+    if(i == 40 && j == 70){
+      cout << "Coordenadas inválidas!\nInsira novas coordenadas x (menor que 40) e y (menor que 70): ";
       cin >> i >> j;
     }
     switch(option){
