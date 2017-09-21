@@ -1,5 +1,5 @@
 # Utilização do  Conway's Game of Life em C+
-##Sobre o Conway's Game of Life:
+###Sobre o Conway's Game of Life:###
 
   "A ideia básica do "jogo" é começar com uma configuração simples de células vivas (organismos) que são colocadas em um tabuleiro 2D de vários métodos. Isto constitui a primeira geração. As "leis genéticas" de Conway para nascimentos, mortes e sobrevivência (**as quatro regras**) são então aplicadas e a nova geração é então colocada de acordo. Geração a geração os "jogador(es)" observam as várias imagens que surgem."
 
@@ -10,13 +10,13 @@
 - Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva.
 - Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.
 
-###Para acessar:
+###Para acessar:###
 
   - Dê um **git clone** no repositório 
   - Para compilar, basta digitar **make**
   - Para rodar o jogo, digite **make run**
 
-###Para o usuário:
+###Para o usuário:###
 
 Ao iniciar o jogo, irá aparecer um menu de opções para que o usuário escolha o que deseja.
 
