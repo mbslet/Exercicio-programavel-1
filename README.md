@@ -34,7 +34,7 @@ Para cada uma das opções tem um limite para **x** e para **y**, por conta de s
 
 Logo em seguida o programa pede que informe o **número de iterações**, que será uma condição de parada do programa.
 
-O programa finaliza após o fim das iterações
+O programa finaliza após o fim das iterações.
 
 
 
