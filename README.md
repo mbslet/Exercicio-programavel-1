@@ -22,11 +22,11 @@ Ao iniciar o jogo, irá aparecer um menu de opções para que o usuário escolha
 
 Das opções tem-se:
 
-- *Escolha **1** :* Colocar um Block
-- *Escolha **2** :* Colocar um Blinker
-- *Escolha **3** :* Colocar um Glider
-- *Escolha **4** :* Colocar a Gosper Glider Gun
-- *Escolha **0** :* Executar as regras
+- Escolha **1**: Colocar um Block
+- Escolha **2**: Colocar um Blinker
+- Escolha **3**: Colocar um Glider
+- Escolha **4**: Colocar a Gosper Glider Gun
+- Escolha **0**: Executar as regras
 
 Após o usuário escolher uma dessas opções, o programa pede duas **coordenadas** (**x** e **y**) ao usuário, e assim poderá escolher certos lugares para colocar as opções.
 
