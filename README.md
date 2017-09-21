@@ -1,4 +1,4 @@
-# Utilização do  Conway's Game of Life em C+
+# Utilização do  Conway's Game of Life em C++
 **Sobre o Conway's Game of Life:**
 
   "A ideia básica do "jogo" é começar com uma configuração simples de células vivas (organismos) que são colocadas em um tabuleiro 2D de vários métodos. Isto constitui a primeira geração. As "leis genéticas" de Conway para nascimentos, mortes e sobrevivência (**as quatro regras**) são então aplicadas e a nova geração é então colocada de acordo. Geração a geração os "jogador(es)" observam as várias imagens que surgem."
