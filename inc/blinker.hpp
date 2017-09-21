@@ -5,8 +5,7 @@
 
 typedef bool(&matrixBool)[40][70];
 
-class Blinker {
-private:
+class Blinker : public Matrix {
 public:
     Blinker();
 

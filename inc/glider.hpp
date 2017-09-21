@@ -5,8 +5,7 @@
 
 typedef bool(&matrixBool)[40][70];
 
-class Glider {
-private:
+class Glider : public Matrix{
 public:
     Glider();
 

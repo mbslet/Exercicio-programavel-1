@@ -5,8 +5,7 @@
 
 typedef bool(&matrixBool)[40][70];
 
-class Block {
-private:
+class Block : public Matrix{
 public:
     Block();
 
