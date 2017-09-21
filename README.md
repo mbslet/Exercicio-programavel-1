@@ -22,17 +22,19 @@ Ao iniciar o jogo, irá aparecer um menu de opções para que o usuário escolha
 
 Das opções tem-se:
 
-- *Escolha **1**:* Colocar um Block
-- *Escolha **2**:* Colocar um Blinker
-- *Escolha **3**:* Colocar um Glider
-- *Escolha **4**:* Colocar a Gosper Glider Gun
-- *Escolha **0**:* Executar as regras
+- *Escolha **1** :* Colocar um Block
+- *Escolha **2** :* Colocar um Blinker
+- *Escolha **3** :* Colocar um Glider
+- *Escolha **4** :* Colocar a Gosper Glider Gun
+- *Escolha **0** :* Executar as regras
 
 Após o usuário escolher uma dessas opções, o programa pede duas **coordenadas** (**x** e **y**) ao usuário, e assim poderá escolher certos lugares para colocar as opções.
 
 Para cada uma das opções tem um limite para **x** e para **y**, por conta de seus diferentes formatos. E então o usuário deverá digitar a opção **0**, fazendo com que execute as regras no campo. 
 
-Logo em seguida o programa pede que informe o **número de interações**, que será uma condição de parada do programa.
+Logo em seguida o programa pede que informe o **número de iterações**, que será uma condição de parada do programa.
+
+O programa finaliza após o fim das iterações
 
 
 

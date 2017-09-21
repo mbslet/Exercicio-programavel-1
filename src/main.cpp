@@ -35,19 +35,19 @@ int main(int argc, char ** argv){
     option = menu();
 
     if(option == 1){
-      cout << "Insira as coordenadas x (até 38) e y (até 68): ";
+      cout << "Insira as coordenadas x (0 até 38) e y (0 até 68): ";
       cin >> i >> j;
     }
     if(option == 2){
-      cout << "Insira as coordenadas x (até 38) e y (até 68): ";
+      cout << "Insira as coordenadas x (0 até 38) e y (0 até 68): ";
       cin >> i >> j;
     }
     if(option == 3){
-      cout << "Insira as coordenadas x (até 37) e y (até 67): ";
+      cout << "Insira as coordenadas x (0 até 37) e y (0 até 67): ";
       cin >> i >> j;
     }
     if(option == 4){
-      cout << "Insira as coordenadas x (até 29) e y (até 29): ";
+      cout << "Insira as coordenadas x (0 até 29) e y (0 até 29): ";
       cin >> i >> j;
     }
     if(i == 40 && j == 70){
